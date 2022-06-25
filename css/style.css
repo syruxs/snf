@@ -1,12 +1,73 @@
+/* CSS Document */
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
 }
 body{
-    background-image: url(../galery/286417529_563298345138976_1016982810080722711_n.jpg);
     background-size: cover;
-    background-position: center center;
     background-attachment: fixed;
+	background-image: url(../galery/fondo.png);
+}
+.contenedor{
+	position:absolute;
+	width:100%;
+	height:auto;
+	left:0%;
+	top:0%;
+	z-index:0;
+}
+.contenedor img{
+	width:100%;
+}
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-transition: all .25s ease-in;
+       -moz-transition: all .25s ease-in;
+        -ms-transition: all .25s ease-in;
+         -o-transition: all .25s ease-in;
+            transition: all .25s ease-in;
+	z-index:10;
+	background-image:url(../img/fondo.png);
+}
+#menu{
+	list-style:none;
+}
+#menu li{
+	display: inline;
+	margin: 0 10px 0 0;
+}
+.menulist{
+	position:absolute;
+	top:30px;
+	right:100px;
+}
+#menu li a{
+	text-decoration:none;
+	color:#FFFFFF;
+	background-image:url(../img/fondo.png);
+	padding:10px;
+}
+#menu li a:hover{
+	background-image:url(../img/fondo2.png);
+	padding:10px;
+	color:#333333;
+}
+section {
+    padding: 120px 0;
+    overflow: hidden;
+	text-align: center;
+}
+
+
+a {
+	text-decoration:none;
+}
+#container{
+	position: absolute;
+	width: 100%;
+	height:100vh;
 }
